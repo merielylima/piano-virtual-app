@@ -11,4 +11,4 @@
 
 [![image](https://user-images.githubusercontent.com/58087344/118180056-7c1fd400-b40c-11eb-84ba-cf61d6bbe62e.png)](https://www.figma.com/file/flJl8BO3qUk1rcwzLFCKqY/Untitled?node-id=2%3A0)
 
-Status do Projeto: Em desenvolvimento :warning:
+<p align="center"> Status do Projeto: Em desenvolvimento :warning: </p>
