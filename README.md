@@ -9,5 +9,5 @@
 
 <h2> Design feito no Figma </h2>
 
-[![image](https://user-images.githubusercontent.com/58087344/118178631-95c01c00-b40a-11eb-8d8b-93f422d26f16.png)](https://www.figma.com/file/flJl8BO3qUk1rcwzLFCKqY/Untitled?node-id=2%3A0)
+[![image](https://user-images.githubusercontent.com/58087344/118180056-7c1fd400-b40c-11eb-84ba-cf61d6bbe62e.png)](https://www.figma.com/file/flJl8BO3qUk1rcwzLFCKqY/Untitled?node-id=2%3A0)
 
