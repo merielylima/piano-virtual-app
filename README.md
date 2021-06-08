@@ -10,5 +10,5 @@ Acesse: https://merielylima.github.io/piano-virtual-app/
 
 <h2> Desenho feito em CSS puro </h2>
 
-![piano-image](https://github.com/merielylima/piano-virtual-app/blob/main/img/keyboard.png?raw=true)
+![piano-image](https://github.com/merielylima/piano-virtual-app/blob/main/img/piano.png?raw=true)
 
