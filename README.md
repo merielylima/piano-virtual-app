@@ -12,4 +12,3 @@ Acesse: https://merielylima.github.io/piano-virtual-app/
 
 ![piano-image](https://github.com/merielylima/piano-virtual-app/blob/main/img/keyboard.png?raw=true)
 
-
