@@ -11,4 +11,4 @@
 
 ![piano-image](https://github.com/merielylima/piano-virtual-app/blob/main/img/piano.png?raw=true)
 
-<p align="center"> Status do Projeto: Em desenvolvimento :warning: </p>
+
