@@ -1,9 +1,17 @@
 // get all keys
 var power = false;
+
 function switchPower(){
   power = !power;
+  var lcd = document.getElementById("display-lcd");
   if (!power){
-    document.getElementById("display-lcd").placeholder = "";
+    lcd.placeholder = "";
+    lcd.classList.remove("display-lcd--on");
+    lcd.classList.add("display-lcd");
+  }
+  else{
+    lcd.classList.remove("display-lcd");
+    lcd.classList.add("display-lcd--on");
   }
 }
 const keys = document.querySelectorAll(".key")
