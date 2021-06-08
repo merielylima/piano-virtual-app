@@ -24,11 +24,12 @@
       </div>
       <div class="controls-bar">
         <div class="item--controls">
-          <input class="input--checkbox" type="checkbox" id="power" name="power"> 
+          <input class="input--checkbox" onclick="switchPower()" type="checkbox" id="power" name="power"> 
           <label class="power label--checkbox" for="power"></label>
         </div>
         <div class="item--controls">
-          <input class="display-lcd" type="text" placeholder="C#" disabled=""> 
+          <input class="display-lcd" type="text" placeholder="" id="display-lcd" disabled=""> 
+
         </div>
         <div class="item--controls">
           <input class="input--checkbox" type="checkbox" onclick="mostrarTeclado()" id="show-keys" name="show-keys">
@@ -39,73 +40,73 @@
 
     <div id="piano-container" class="piano-container keys">
       <li class="container--li"> 
-        <div class="white key" data-key="65" data-note="C">
+        <div class="white key" data-key="65" data-note="C" id="C">
           <p class="keys-hidden key-white keyboard">A</p>
         </div>
-        <div class="black key sharp" data-key="87" data-note="C#">
+        <div class="black key sharp" data-key="87" data-note="C#" id="C#">
           <span class="keys-hidden key-black keyboard">W</span>
         </div>
       </li>
       <li class="container--li"> 
-        <div class="white key" data-key="83" data-note="D">
+        <div class="white key" data-key="83" data-note="D" id="D">
           <p class="keys-hidden key-white keyboard">S</p>
         </div>
-        <div class="black key sharp" data-key="69" data-note="D#">
+        <div class="black key sharp" data-key="69" data-note="D#" id="D#">
           <span class="keys-hidden key-black keyboard">E</span>
         </div>
       </li>
       <li class="container--li"> 
-        <div class="white key" data-key="68" data-note="E">
+        <div class="white key" data-key="68" data-note="E" id="E">
           <p class="keys-hidden key-white keyboard">D</p>
         </div>
       </li>
       <li class="container--li"> 
-        <div class="white key" data-key="70" data-note="F">
+        <div class="white key" data-key="70" data-note="F" id="F">
           <p class="keys-hidden key-white keyboard">F</p>
         </div>
-        <div class="black key sharp" data-key="84" data-note="F#">
+        <div class="black key sharp" data-key="84" data-note="F#" id="F#">
           <span class="keys-hidden key-black keyboard">T</span>
         </div>
       </li>
       <li class="container--li"> 
-        <div class="white key" data-key="71" data-note="G">
+        <div class="white key" data-key="71" data-note="G" id="G">
           <p class="keys-hidden key-white keyboard">G</p>
         </div>
-        <div class="black key sharp" data-key="89" data-note="G#">
+        <div class="black key sharp" data-key="89" data-note="G#" id="G#">
           <span class="keys-hidden key-black keyboard">Y</span>
         </div>
       </li>
       <li class="container--li"> 
-        <div class="white key" data-key="72" data-note="A">
+        <div class="white key" data-key="72" data-note="A" id="A">
           <p class="keys-hidden key-white keyboard">H</p>
         </div>
-        <div class="black key sharp" data-key="85" data-note="A#">
+        <div class="black key sharp" data-key="85" data-note="A#" id="A#">
           <span class="keys-hidden key-black keyboard">U</span>
         </div>
       </li>
       <li class="container--li"> 
-        <div class="white key" data-key="74" data-note="B">
+        <div class="white key" data-key="74" data-note="B" id="B">
           <p class="keys-hidden key-white keyboard">J</p>
         </div>
       </li>
       <li class="container--li"> 
-        <div class="white key" data-key="75" data-note="C">
+        <div class="white key" data-key="75" data-note="C" id="C">
           <p class="keys-hidden key-white keyboard">K</p>
         </div>
-        <div class="black key sharp" data-key="79" data-note="C#">
+        <div class="black key sharp" data-key="79" data-note="C#" id="C#">
           <span class="keys-hidden key-black keyboard">O</span>
         </div>
       </li>
       <li class="container--li"> 
-        <div class="white key" data-key="76" data-note="D">
+        <div class="white key" data-key="76" data-note="D" id="D">
           <p class="keys-hidden key-white keyboard">L</p>
         </div>
-        <div class="black key sharp" data-key="80" data-note="D#">
+        <div class="black key sharp" data-key="80" data-note="D#" id="D#">
           <span class="keys-hidden key-black keyboard">P</span>
         </div>
       </li>
       <li class="container--li"> 
-        <div class="white key" data-key="186" data-note="E">
+        <div class="white key" data-key="186" data-note="E" id="E">
           <p class="keys-hidden key-white keyboard">Ç</p>
         </div> 
       </li>
