@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Piano Virtual</title>
+  <link rel="stylesheet" href="style/reset.css">
+  <link rel="stylesheet" href="style/main.css">
+  <script src="main.js" defer></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div id="piano" class="piano">
+    <div class="speaker"></div>
+    <div class="controls">
+      <div class="controls-labels">
+        <p>Power</p>
+        <p>Display</p>
+        <p>Show keys</p>
+      </div>
+      <div class="controls-bar">
+        <div class="item--controls">
+          <input class="input--checkbox" type="checkbox" id="power" name="power"> 
+          <label class="power label--checkbox" for="power"></label>
+        </div>
+        <div class="item--controls">
+          <input class="display-lcd" type="text" placeholder="C#" disabled=""> 
+        </div>
+        <div class="item--controls">
+          <input class="input--checkbox" type="checkbox" onclick="mostrarTeclado()" id="show-keys" name="show-keys">
+          <label class="label--checkbox show-keys" for="show-keys"></label>
+        </div>
+      </div>
+    </div>
+
+    <div id="piano-container" class="piano-container keys">
+      <li class="container--li"> 
+        <div class="white key" data-key="65" data-note="C">
+          <p class="keys-hidden key-white keyboard">A</p>
+        </div>
+        <div class="black key sharp" data-key="87" data-note="C#">
+          <span class="keys-hidden key-black keyboard">W</span>
+        </div>
+      </li>
+      <li class="container--li"> 
+        <div class="white key" data-key="83" data-note="D">
+          <p class="keys-hidden key-white keyboard">S</p>
+        </div>
+        <div class="black key sharp" data-key="69" data-note="D#">
+          <span class="keys-hidden key-black keyboard">E</span>
+        </div>
+      </li>
+      <li class="container--li"> 
+        <div class="white key" data-key="68" data-note="E">
+          <p class="keys-hidden key-white keyboard">D</p>
+        </div>
+      </li>
+      <li class="container--li"> 
+        <div class="white key" data-key="70" data-note="F">
+          <p class="keys-hidden key-white keyboard">F</p>
+        </div>
+        <div class="black key sharp" data-key="84" data-note="F#">
+          <span class="keys-hidden key-black keyboard">T</span>
+        </div>
+      </li>
+      <li class="container--li"> 
+        <div class="white key" data-key="71" data-note="G">
+          <p class="keys-hidden key-white keyboard">G</p>
+        </div>
+        <div class="black key sharp" data-key="89" data-note="G#">
+          <span class="keys-hidden key-black keyboard">Y</span>
+        </div>
+      </li>
+      <li class="container--li"> 
+        <div class="white key" data-key="72" data-note="A">
+          <p class="keys-hidden key-white keyboard">H</p>
+        </div>
+        <div class="black key sharp" data-key="85" data-note="A#">
+          <span class="keys-hidden key-black keyboard">U</span>
+        </div>
+      </li>
+      <li class="container--li"> 
+        <div class="white key" data-key="74" data-note="B">
+          <p class="keys-hidden key-white keyboard">J</p>
+        </div>
+      </li>
+      <li class="container--li"> 
+        <div class="white key" data-key="75" data-note="C">
+          <p class="keys-hidden key-white keyboard">K</p>
+        </div>
+        <div class="black key sharp" data-key="79" data-note="C#">
+          <span class="keys-hidden key-black keyboard">O</span>
+        </div>
+      </li>
+      <li class="container--li"> 
+        <div class="white key" data-key="76" data-note="D">
+          <p class="keys-hidden key-white keyboard">L</p>
+        </div>
+        <div class="black key sharp" data-key="80" data-note="D#">
+          <span class="keys-hidden key-black keyboard">P</span>
+        </div>
+      </li>
+      <li class="container--li"> 
+        <div class="white key" data-key="186" data-note="E">
+          <p class="keys-hidden key-white keyboard">Ç</p>
+        </div> 
+      </li>
+    </div>
+    <div class="speaker-2">
+      
+    </div>
+ 
+  </div>
+  <div class="buttons">
+    <button class=" fullscreen openfullscreen"></button>
+      <div class="button plus">+</div>
+      <div class="button minus">-</div>
+     </div>
+  </div>
+  <section class="audios">
+    <audio data-key="65" src="/sounds/040.wav"></audio>
+    <audio data-key="87" src="/sounds/041.wav"></audio>
+    <audio data-key="83" src="/sounds/042.wav"></audio>
+    <audio data-key="69" src="/sounds/043.wav"></audio>
+    <audio data-key="68" src="/sounds/044.wav"></audio>
+    <audio data-key="70" src="/sounds/045.wav"></audio>
+    <audio data-key="84" src="/sounds/046.wav"></audio>
+    <audio data-key="71" src="/sounds/047.wav"></audio>
+    <audio data-key="89" src="/sounds/048.wav"></audio>
+    <audio data-key="72" src="/sounds/049.wav"></audio>
+    <audio data-key="85" src="/sounds/050.wav"></audio>
+    <audio data-key="74" src="/sounds/051.wav"></audio>
+    <audio data-key="75" src="/sounds/052.wav"></audio>
+    <audio data-key="79" src="/sounds/053.wav"></audio>
+    <audio data-key="76" src="/sounds/054.wav"></audio>
+    <audio data-key="80" src="/sounds/055.wav"></audio>
+    <audio data-key="186" src="/sounds/056.wav"></audio>
+  </section>
+
+
+</body>
+</html>
