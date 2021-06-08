@@ -1,20 +1,30 @@
 // get all keys
+var power = false;
+function switchPower(){
+  power = !power;
+  if (!power){
+    document.getElementById("display-lcd").placeholder = "";
+  }
+}
 const keys = document.querySelectorAll(".key")
 
 function playNote(event) {
+  if (!power){
+    return;
+  }
   
   let audioKeyCode = getKeyCode(event);
 
   // typed or pressed key
   const key = document.querySelector(`.key[data-key="${audioKeyCode}"]`)
-
+  console.log(key.id);
+  document.getElementById("display-lcd").placeholder = key.id;
   // if key exists
   const cantFoundAnyKey = !key
 
   if(cantFoundAnyKey) {
     return;
   }
-
   addPlayingClass(key)
   playAudio(audioKeyCode)
 }
