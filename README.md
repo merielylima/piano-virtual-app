@@ -9,6 +9,6 @@
 
 <h2> Desenho feito em CSS puro </h2>
 
-![piano-image](https://github.com/merielylima/piano-virtual-app/blob/main/img/keyboard.png?raw=true)
+![piano-image](https://github.com/merielylima/piano-virtual-app/blob/main/img/piano.png?raw=true)
 
 <p align="center"> Status do Projeto: Em desenvolvimento :warning: </p>
