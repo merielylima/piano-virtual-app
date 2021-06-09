@@ -18,7 +18,7 @@ Access the link to play https://merielylima.github.io/piano-virtual-app/
 
 ## How to Use It 
 - You need to click on the **power button** to start using it.
-- The piano plays with both the mouse click on the keys and the keyboard keys.
+- The piano plays with both the **mouse click** on the keys and the **keyboard keys**.
 - You can see the keys referring to the keyboard by clicking the **showkeys button**.
 - The played notes are shown on the **display screen**.
 
