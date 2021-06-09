@@ -10,6 +10,7 @@ Access the link to play https://merielylima.github.io/piano-virtual-app/
 
 ## **Features**
 - Power button
+- Display screen
 - ShowKeys button
 - Switching fullscreen mode
 - zoom out
@@ -19,6 +20,7 @@ Access the link to play https://merielylima.github.io/piano-virtual-app/
 - You need to click on the **power button** to start using it.
 - The piano plays with both the mouse click on the keys and the keyboard keys.
 - You can see the keys referring to the keyboard by clicking the **showkeys button**.
+- - The played notes are shown on the **display screen**.
 
 ## Drawing made using only CSS
 [![piano-image](https://github.com/merielylima/piano-virtual-app/blob/main/img/piano.png?raw=true)](https://merielylima.github.io/piano-virtual-app/)
